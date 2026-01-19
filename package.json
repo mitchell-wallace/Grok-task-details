@@ -1,0 +1,15 @@
+{
+  "name": "grok-task-details",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "hono": "^4.6.6"
+  }
+}
