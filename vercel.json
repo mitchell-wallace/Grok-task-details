@@ -1,11 +1,9 @@
 {
   "functions": {
     "index.js": {
-      "runtime": "nodejs20.x",
       "includeFiles": "docs/**"
     },
     "api/index.js": {
-      "runtime": "nodejs20.x",
       "includeFiles": "docs/**"
     }
   }
