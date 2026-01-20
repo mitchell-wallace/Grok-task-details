@@ -3,10 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "vercel dev"
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js"
   },
   "dependencies": {
-    "hono": "^4.6.6"
+    "hono": "^4.6.6",
+    "@hono/node-server": "^1.13.2"
   }
 }
