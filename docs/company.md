@@ -23,3 +23,4 @@ sentiment:
     - "Community posts on X (supplementary)."
 output:
   format: "Summarize key updates with enough detail that an engineer can understand what changed and why it matters."
+  fallback: "If no items meet the filters, return the most relevant available news, prioritizing recency and technology-related coverage."
